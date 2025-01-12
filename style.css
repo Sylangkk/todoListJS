@@ -1,0 +1,81 @@
+/* Container principal */
+div {
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+}
+
+/* Centrage de la phrase "Liste des tâches" */
+div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-weight: bolder;
+}
+
+
+/* Input */
+#inputTache {
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+/* Bouton Ajouter */
+#ajouterTache {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#ajouterTache:hover {
+    background-color: #0056b3;
+}
+
+#ajouterTache:active {
+    background-color: #003f7f;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+    border: 2px solid #3498db;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #555;
+    color: white;
+}
+
+table td:hover {
+    background-color: #ddd;
+}
+
+/* En-tête */
+caption {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
